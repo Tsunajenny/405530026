@@ -51,7 +51,7 @@ echo "<table><th>Name</th> <th>Stock</th> <th>Sold</th>";
         echo $result;
     */
 echo "</table>";
-echo "Array_map + join 寫不出來QQ";
+echo "Array_map + join 我寫不出來QQ";
 ?>
 
 </html>
