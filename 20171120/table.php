@@ -17,11 +17,12 @@ $data = array(
 /*function tr($x){
     return $x;   
 }
-*/
+
 function row($x){
     return ("<td>$x</td>");
 }
-
+*/
+    
 echo "<table><tr><th>Name</th> <th>Stock</th> <th>Sold</th></tr>";
 echo "<tr>";
 for($i = 0; $i<count($data); $i++){
@@ -43,10 +44,11 @@ foreach($data as $table){
 echo '</table><br>';
 
 echo "<table><th>Name</th> <th>Stock</th> <th>Sold</th>";
-        $rdata=array_map("row",$data);
-        //$ddata=array_map("td",$rdata);
+       /* $rdata=array_map("row",$data);
+        $ddata=array_map("td",$rdata);
         $result=join("",$rdata);
         echo $result;
+    */
 echo "</table>";
 ?>
 
