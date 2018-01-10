@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <style type="text/css">
@@ -49,6 +50,7 @@ echo "<table><th>Name</th> <th>Stock</th> <th>Sold</th>";
         $result=join("",$rdata);
         echo $result;
     */
+    echo "寫不出來QQ";
 echo "</table>";
 ?>
 
